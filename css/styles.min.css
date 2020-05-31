@@ -376,6 +376,10 @@ footer {
   color: #fff;
   position: relative;
   padding: 0 15px;
+    background: url('../images/cover.jpg') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 .hello_block .image {
@@ -801,7 +805,7 @@ footer .footer .btns_social .btn_social a:hover {
 			flex-direction: column;
   }
 
-  .header nav .show_menu {
+ /* .header nav .show_menu {
 	display: block;
 	margin-top: 10px;
 	padding: 20px;
@@ -831,7 +835,7 @@ footer .footer .btns_social .btn_social a:hover {
   .header nav menu li a:hover {
 	color: #fff;
 	background: #000;
-  }
+  }*/
 
   .skills {
 	-webkit-box-pack: center;
